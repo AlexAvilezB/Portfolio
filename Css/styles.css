@@ -8,15 +8,12 @@
 
 body {
   font-family: "Raleway", sans-serif;
-}
-
-body {
   width: 100vw;
   height: 100hw;
-  background-color: #161c32;
-  color: #fff;
+  background-color: #01cfa6;
+  color: black;
 }
 
 .menu a {
-  color: #fff;
+  color: black;
 }
