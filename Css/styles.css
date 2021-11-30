@@ -54,6 +54,10 @@ h2 {
   margin-bottom: 15px;
 }
 
+h2 span {
+  color: rgb(0, 114, 196);
+}
+
 .presentext {
   text-align: center;
   text-decoration: none;
