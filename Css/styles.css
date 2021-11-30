@@ -35,7 +35,26 @@ body {
   transition: ease-in 0.4s;
 }
 
+.presentacion {
+  padding: 0;
+  text-align: center;
+  margin-top: 60px;
+}
+.presentacion .picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 h2 {
-  margin-top: 20px;
   margin-left: 30px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.presentext {
+  text-align: center;
+  text-decoration: none;
 }
