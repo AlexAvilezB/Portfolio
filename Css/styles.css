@@ -103,26 +103,28 @@ h2 span {
 }
 
 .habilidades {
-  margin-top: 200px;
+  margin-top: 300px;
   padding: 15px;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
-  grid-gap: 1rem;
-  padding: 1rem 10px;
-  font-size: 1.2rem;
+  grid-column-gap: 300px;
+  grid-row-gap: 35px;
+  padding: 6rem 300px;
+  font-size: 0.75rem;
 }
 
 .skill:hover {
   background-color: floralwhite;
   color: black;
   box-shadow: none;
-  transition: ease-in 0.2s;
+  transition: ease-in 0.3s;
+  padding: 10px;
 }
 
 .skill-title {
@@ -138,4 +140,50 @@ h2 span {
   height: 150px;
   width: 150px;
   padding: 20px;
+}
+
+.text {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 35px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.capacitaciones {
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.capacitacion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 10px;
+  font-size: 1rem;
+}
+
+.cap-icon {
+  height: 110px;
+  width: 140px;
+  padding: 20px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 10px;
+  font-size: 0.75rem;
+}
+
+.caja {
+  text-align: justify;
+  font-size: 0.75rem;
 }
