@@ -9,44 +9,83 @@
   </head>
 
   <body>
-    <div class="fondo">
-      <header>
-        <nav class="menu">
-          <a href="index.html">Inicio</a>
-          <a href="conocimientos.html">Conocimientos</a>
-          <a href="capacitaciones.html">Capacitaciones</a>
-          <a href="habilidades.html">Habilidades</a>
-          <a href="proyectos.html">Proyectos</a>
-        </nav>
-      </header>
-    </div>
-    <main>
-      <section class="presentacion">
-        <img src="Css/assets/Perfil.jpg" class="picture" />
-        <h2>Hola, soy <span>Alejandro Avilez</span></h2>
+    <section id="inicio">
+      <div class="fondo">
+        <header>
+          <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#Habilidades">Habilidades</a>
+            <a href="">Capacitaciones</a>
+            <a href="">Conocimientos</a>
+            <a href="">Proyectos</a>
+          </nav>
+        </header>
+      </div>
 
-        <section class="presentext">
-          <h3>
-            Tengo la edad de 19 años, actualmente soy un estudiante de
-            ingeniería en sistemas de información con una vocación de satisfacer
-            las necesidades y problemáticas de los clientes con integridad, uso
-            del razonamiento lógico y el trabajo en equipo, poseo conocimientos
-            sobre el funcionamiento de los servicios relacionados a la nube de
-            Amazon ademas de empezar a desarrollarme en el area del desarrollo
-            Back-End. Conozco y he trabajado poco a poco mis habilidades en la
-            implementación y uso de lenguajes como C, C++ y lo fundamental sobre
-            programación en JAVA y C#, creación y configuración de bases de
-            datos relacionales y uso de HTML5 y CSS.
-          </h3>
-        </section>
-        <section class="curriculum">
-          <a download href="../Portfolio/Css/assets/Diseño Curriculum.pdf">
-            <button class="cv">Descarga mi Curriculum</button>
-          </a>
-        </section>
-      </section>
-    </main>
+      <main>
+        <div class="presentacion">
+          <img src="Css/assets/Perfil.jpg" class="picture" />
+          <h2>Hola, soy <span>Alejandro Avilez</span></h2>
 
-    <article></article>
+          <div class="presentext">
+            <h3>
+              Tengo la edad de 19 años, actualmente soy un estudiante de
+              ingeniería en sistemas de información con una vocación de
+              satisfacer las necesidades y problemáticas de los clientes con
+              integridad, uso del razonamiento lógico y el trabajo en equipo,
+              poseo conocimientos sobre el funcionamiento de los servicios
+              relacionados a la nube de Amazon ademas de empezar a desarrollarme
+              en el area del desarrollo Back-End. Conozco y he trabajado poco a
+              poco mis habilidades en la implementación y uso de lenguajes como
+              C, C++ y lo fundamental sobre programación en JAVA y C#, creación
+              y configuración de bases de datos relacionales y uso de HTML5 y
+              CSS.
+
+              <div class="curriculum">
+                <a
+                  download
+                  href="../Portfolio/Css/assets/Diseño Curriculum.pdf"
+                >
+                </a>
+                <button class="cv">Descarga mi Curriculum</button>
+              </div>
+            </h3>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="habilidades" id="Habilidades">
+      <h2 class="titulo2">Mis habilidades</h2>
+      <div class="container">
+        <div class="skillcards">
+          <div class="skill">
+            <img src="/Css/assets/html5.png" class="skill-icon" />
+            <h1 class="skill-title">HTML5</h1>
+          </div>
+        </div>
+
+        <div class="skillcards">
+          <div class="skill">
+            <img src="/Css/assets/CSS3.png" class="skill-icon" />
+            <h1 class="skill-title">CSS3</h1>
+          </div>
+        </div>
+
+        <div class="skillcards">
+          <div class="skill">
+            <img src="/Css/assets/php.png" class="skill-icon" />
+            <h1 class="skill-title">En desarrollo</h1>
+          </div>
+        </div>
+
+        <div class="skillcards">
+          <div class="skill">
+            <img src="/Css/assets/sql-logo.png" class="skill-icon" />
+            <h1 class="skill-title">En desarrollo</h1>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
