@@ -37,7 +37,7 @@ body {
 }
 
 .fondo {
-  background-image: url("/assets/fakurian-design-iFu2HILEng8-unsplash.JPG");
+  background-image: url("../assets/fakurian-design-iFu2HILEng8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
 
@@ -110,7 +110,7 @@ h2 span {
 .habilidades {
   margin-top: 300px;
   padding: 35px;
-  background-image: url("/assets/fondocode.JPG");
+  background-image: url("../assets/fondocode.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
