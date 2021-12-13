@@ -37,11 +37,7 @@ body {
 }
 
 .fondo {
-<<<<<<< HEAD
-  background-image: url(/assets/fakurian-design-iFu2HILEng8-unsplash.JPG);
-=======
-  background-image: url("/assets/fakurian-design-iFu2HILEng8-unsplash.jpg");
->>>>>>> a13c9bc78f1c7bf9631762b5d3a7abae403fc8d1
+  background-image: url(/assets/fakurian-design-iFu2HILEng8-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
 
