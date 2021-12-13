@@ -37,7 +37,11 @@ body {
 }
 
 .fondo {
+<<<<<<< HEAD
   background-image: url(/assets/fakurian-design-iFu2HILEng8-unsplash.JPG);
+=======
+  background-image: url("/assets/fakurian-design-iFu2HILEng8-unsplash.jpg");
+>>>>>>> a13c9bc78f1c7bf9631762b5d3a7abae403fc8d1
   background-position: center;
   background-repeat: no-repeat;
 
@@ -110,7 +114,7 @@ h2 span {
 .habilidades {
   margin-top: 300px;
   padding: 35px;
-  background-image: url("/assets/fondocode.jpg");
+  background-image: url(/assets/fondocode.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
