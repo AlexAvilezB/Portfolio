@@ -27,7 +27,7 @@ body {
 }
 
 .menu a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 10px;
   margin: 10px;
@@ -37,7 +37,10 @@ body {
 }
 
 .fondo {
-  background-color: rgb(0, 114, 196);
+  background-image: url(/Css/assets/fakurian-design-iFu2HILEng8-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
   text-align: center;
 }
 
@@ -52,8 +55,9 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-top: 175px;
-  width: 70vw;
-  height: 50vh;
+  width: 75vw;
+  height: 90vh;
+  background-color: hsl(0, 0%, 10%);
 }
 
 .presentacion .picture {
@@ -72,7 +76,7 @@ h2 {
 }
 
 h2 span {
-  color: rgb(0, 114, 196);
+  color: rgb(93, 185, 250);
 }
 
 .presentext {
@@ -80,6 +84,7 @@ h2 span {
   text-decoration: none;
   margin-top: 35px;
   line-height: 30px;
+  padding: 40px;
 }
 
 .curriculum {
@@ -103,26 +108,45 @@ h2 span {
 }
 
 .habilidades {
-  margin-top: 200px;
-  padding: 15px;
+  margin-top: 300px;
+  padding: 35px;
+  background-image: url("/Css/assets/fondocode.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
-  grid-gap: 1rem;
-  padding: 1rem 10px;
-  font-size: 1.2rem;
+  grid-column-gap: 100px;
+  grid-row-gap: 55px;
+  padding: 3rem 200px;
+  font-size: 0.75rem;
 }
 
-.skill:hover {
-  background-color: floralwhite;
-  color: black;
+.skill {
+  border: 1px;
+  box-shadow: 0 2px 3px 0px rgba(0, 114, 196, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all;
+}
+
+.container:hover .skill {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
   box-shadow: none;
-  transition: ease-in 0.2s;
+}
+
+.container:hover .skill:hover {
+  filter: blur(0px);
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }
 
 .skill-title {
@@ -138,4 +162,53 @@ h2 span {
   height: 150px;
   width: 150px;
   padding: 20px;
+}
+
+.text {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 35px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.capacitaciones {
+  margin-top: 100px;
+  padding: 15px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.capacitacion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 10px;
+  font-size: 1rem;
+}
+
+.cap-icon {
+  height: 110px;
+  width: 140px;
+  padding: 20px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 10px;
+  font-size: 0.75rem;
+}
+
+.caja {
+  text-align: justify;
+  font-size: 0.7rem;
+  padding: 40px;
 }
