@@ -42,6 +42,27 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -125px;
+    width: 170vw;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
