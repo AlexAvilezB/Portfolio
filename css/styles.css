@@ -1,5 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 
+@media screen and (max-width: 300px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -125px;
+    width: 180vw;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -125px;
+    width: 170vw;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -125px;
+    width: 170vw;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,16 +97,15 @@ body {
   font-size: large;
   display: inline-flex;
   justify-content: center;
+  margin: 0;
 }
 
 .fondo {
-  background-image: url(/assets/fakurian-design-iFu2HILEng8-unsplash.JPG);
+  background-image: url("../assets/fakurian-design-iFu2HILEng8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
-
   text-align: center;
 }
-
 .menu a:hover {
   background-color: rgb(46, 46, 46);
   color: white;
@@ -51,16 +113,16 @@ body {
 }
 
 .presentacion {
-  padding: 0;
   margin: 0 auto;
+  margin-top: 100px;
   text-align: center;
-  margin-top: 175px;
-  width: 75vw;
-  height: 90vh;
+  width: 90vw;
+  height: 60vh;
   background-color: hsl(0, 0%, 10%);
 }
 
 .presentacion .picture {
+  margin: 0 auto;
   width: 175px;
   height: 175px;
   border-radius: 50%;
@@ -69,10 +131,10 @@ body {
 }
 
 h2 {
-  margin-left: 30px;
+  margin-left: 10px;
   text-align: center;
   margin-top: 35px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 h2 span {
@@ -84,7 +146,8 @@ h2 span {
   text-decoration: none;
   margin-top: 35px;
   line-height: 30px;
-  padding: 40px;
+  padding: 5px;
+  font-size: medium;
 }
 
 .curriculum {
@@ -109,8 +172,8 @@ h2 span {
 
 .habilidades {
   margin-top: 300px;
-  padding: 35px;
-  background-image: url(/assets/fondocode.JPG);
+  padding: 15px;
+  background-image: url("../assets/fondocode.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,12 +181,12 @@ h2 span {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
   align-items: center;
   text-align: center;
   grid-column-gap: 100px;
-  grid-row-gap: 55px;
+  grid-row-gap: 1rem;
   padding: 3rem 200px;
   font-size: 0.75rem;
 }
@@ -159,9 +222,9 @@ h2 span {
 }
 
 .skill-icon {
-  height: 150px;
-  width: 150px;
-  padding: 20px;
+  height: 130px;
+  width: 130px;
+  padding: 30px;
 }
 
 .text {
@@ -173,10 +236,9 @@ h2 span {
 }
 
 .capacitaciones {
-  margin-top: 100px;
-  padding: 15px;
-  width: 100vw;
-  height: 100vh;
+  margin-top: 50px;
+  margin-left: 15px;
+  padding: 20px;
 }
 
 .capacitacion {
