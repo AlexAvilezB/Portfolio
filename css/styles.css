@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 300px) {
   .fondo {
     width: 190vw;
     padding: 10px;
@@ -13,8 +13,7 @@
 
   .presentext {
     margin-left: -125px;
-    width: 170vw;
-    font-size: xx-small;
+    width: 180vw;
   }
 
   .habilidades {
@@ -36,7 +35,6 @@
   .presentext {
     margin-left: -125px;
     width: 170vw;
-    font-size: xx-small;
   }
 
   .habilidades {
