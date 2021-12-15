@@ -1,22 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 
-@media screen and (min-width: 200px) and (max-width: 700px) {
+@media screen and (min-width: 300px) and (max-width: auto) {
   .fondo {
-    width: 210vw;
+    width: 190vw;
     padding: 10px;
     align-content: center;
   }
 
-  .cajap {
-    margin: 100px 350px;
+  body {
+    width: 180vw;
   }
 
   .presentext {
+    margin-left: -125px;
     width: 180vw;
   }
 
   .habilidades {
-    width: 210vw;
+    width: 190vw;
   }
 }
 
@@ -76,11 +77,6 @@ body {
   width: 90vw;
   height: 60vh;
   background-color: hsl(0, 0%, 10%);
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  justify-content: center;
-  align-items: center;
-  padding: 3rem 200px;
 }
 
 .presentacion .picture {
@@ -104,6 +100,11 @@ h2 span {
 }
 
 .presentext {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 200px;
   text-align: justify;
   text-decoration: none;
   margin-top: 35px;
