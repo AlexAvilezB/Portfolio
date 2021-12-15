@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 
-@media screen and (min-width: 300px) and (max-width: auto) {
+@media screen and (max-width: 300px) {
   .fondo {
     width: 190vw;
     padding: 10px;
@@ -14,6 +14,71 @@
   .presentext {
     margin-left: -125px;
     width: 180vw;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -125px;
+    width: 170vw;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -175px;
+    margin-right: -135px;
+    width: 120vw;
+    grid-template-columns: 200px;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -125px;
+    width: 170vw;
   }
 
   .habilidades {
