@@ -42,29 +42,6 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  .fondo {
-    width: 190vw;
-    padding: 10px;
-    align-content: center;
-  }
-
-  body {
-    width: 180vw;
-  }
-
-  .presentext {
-    margin-left: -175px;
-    margin-right: -135px;
-    width: 120vw;
-    grid-template-columns: 200px;
-  }
-
-  .habilidades {
-    width: 190vw;
-  }
-}
-
 @media screen and (max-width: 1280px) {
   .fondo {
     width: 190vw;
