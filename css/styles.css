@@ -71,22 +71,22 @@
 
 @media screen and (max-width: 600px) {
   .fondo {
-    width: 190vw;
+    width: 100vw;
     padding: 10px;
     align-content: center;
   }
 
   body {
-    width: 180vw;
+    width: 100vw;
   }
 
   .presentext {
     margin-left: -125px;
-    width: 170vw;
+    width: 100vw;
   }
 
   .habilidades {
-    width: 190vw;
+    width: 100vw;
   }
 }
 
