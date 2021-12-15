@@ -8,7 +8,7 @@
   }
 
   body {
-    width: 180vw;
+    width: 100vw;
   }
 
   .cajap {
@@ -28,7 +28,7 @@
   }
 
   body {
-    width: 180vw;
+    width: 100vw;
   }
 
   .presentext {
@@ -43,9 +43,13 @@
 
 @media screen and (max-width: 800px) {
   .fondo {
-    width: 100vw;
+    width: 190vw;
     padding: 10px;
     align-content: center;
+  }
+
+  body {
+    width: 100vw;
   }
 
   .cajap {
