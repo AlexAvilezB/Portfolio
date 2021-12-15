@@ -54,7 +54,6 @@ body {
   margin: 10px;
   font-size: large;
   display: inline-flex;
-  justify-content: center;
   margin: 0;
 }
 
@@ -62,12 +61,12 @@ body {
   background-image: url("../assets/fakurian-design-iFu2HILEng8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
+  text-align: right;
 }
 .menu a:hover {
   background-color: rgb(46, 46, 46);
   color: white;
-  transition: ease-in 0.4s;
+  transition: ease-in 0.3s;
 }
 
 .presentacion {
@@ -152,8 +151,8 @@ h2 span {
   justify-content: center;
   align-items: center;
   text-align: center;
-  grid-column-gap: 100px;
-  grid-row-gap: 1rem;
+  grid-column-gap: 200px;
+  grid-row-gap: 8rem;
   padding: 3rem 200px;
   font-size: 0.75rem;
 }
@@ -189,8 +188,8 @@ h2 span {
 }
 
 .skill-icon {
-  height: 130px;
-  width: 130px;
+  height: 150px;
+  width: 150px;
   padding: 30px;
 }
 
@@ -200,44 +199,4 @@ h2 span {
   margin-top: 35px;
   line-height: 30px;
   margin-bottom: 30px;
-}
-
-.capacitaciones {
-  margin-top: 50px;
-  margin-left: 15px;
-  padding: 20px;
-}
-
-.capacitacion {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  grid-gap: 1rem;
-  padding: 1rem 10px;
-  font-size: 1rem;
-}
-
-.cap-icon {
-  height: 110px;
-  width: 140px;
-  padding: 20px;
-}
-
-.container1 {
-  display: grid;
-  grid-template-columns: 25% 75%;
-  justify-content: left;
-  align-items: center;
-  text-align: center;
-  grid-gap: 1rem;
-  padding: 1rem 10px;
-  font-size: 0.75rem;
-}
-
-.caja {
-  text-align: justify;
-  font-size: 0.7rem;
-  padding: 40px;
 }
