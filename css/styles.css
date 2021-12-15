@@ -17,27 +17,6 @@
   }
 
   .habilidades {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .fondo {
-    width: 100vw;
-    padding: 10px;
-    align-content: center;
-  }
-
-  body {
-    width: 100vw;
-  }
-
-  .presentext {
-    margin-left: -125px;
-    width: 100vw;
-  }
-
-  .habilidades {
     width: 110vw;
   }
 }
