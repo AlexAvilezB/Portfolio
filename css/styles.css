@@ -41,9 +41,9 @@
   }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 800px) {
   .fondo {
-    width: 190vw;
+    width: 100vw;
     padding: 10px;
     align-content: center;
   }
