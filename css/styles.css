@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   .fondo {
     width: 190vw;
     padding: 10px;
@@ -54,8 +54,9 @@
   }
 
   .presentext {
-    margin-left: -125px;
-    width: 170vw;
+    margin-left: -175px;
+    margin-right: -135px;
+    width: 120vw;
   }
 
   .habilidades {
@@ -63,28 +64,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .fondo {
-    width: 190vw;
-    padding: 10px;
-    align-content: center;
-  }
-
-  body {
-    width: 180vw;
-  }
-
-  .presentext {
-    margin-left: -125px;
-    width: 170vw;
-  }
-
-  .habilidades {
-    width: 190vw;
-  }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .fondo {
     width: 190vw;
     padding: 10px;
@@ -184,6 +164,11 @@ h2 span {
 }
 
 .presentext {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 200px;
   text-align: justify;
   text-decoration: none;
   margin-top: 35px;
