@@ -2,62 +2,43 @@
 
 @media screen and (max-width: 300px) {
   .fondo {
-    width: 190vw;
+    width: 100vw;
     padding: 10px;
     align-content: center;
   }
 
   body {
-    width: 180vw;
+    width: 100vw;
   }
 
-  .cajap {
+  .presentext {
+    margin-left: -125px;
     width: 100vw;
   }
 
   .habilidades {
-    width: 190vw;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 400px) {
   .fondo {
-    width: 190vw;
+    width: 100vw;
     padding: 10px;
     align-content: center;
   }
 
   body {
-    width: 180vw;
+    width: 100vw;
   }
 
   .presentext {
     margin-left: -125px;
-    width: 170vw;
+    width: 100vw;
   }
 
   .habilidades {
-    width: 190vw;
-  }
-}
-
-@media screen and (max-width: 1800px) {
-  .fondo {
-    width: 190vw;
-    padding: 10px;
-    align-content: center;
-  }
-
-  body {
-    width: 180vw;
-  }
-
-  .cajap {
-    width: 190vw;
-  }
-
-  .habilidades {
-    width: 190vw;
+    width: 110vw;
   }
 }
 
