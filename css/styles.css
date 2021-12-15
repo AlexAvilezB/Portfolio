@@ -69,6 +69,33 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+  .fondo {
+    width: 190vw;
+    padding: 10px;
+    align-content: center;
+  }
+
+  body {
+    width: 180vw;
+  }
+
+  .presentext {
+    margin-left: -125px;
+    width: 170vw;
+  }
+
+  .habilidades {
+    width: 190vw;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body::-webkit-scrollbar {
   width: 7px;
 }
