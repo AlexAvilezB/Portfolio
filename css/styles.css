@@ -21,9 +21,9 @@
   }
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1000px) {
   .contain {
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 3fr 2fr;
   }
 }
 
@@ -213,10 +213,11 @@ h2 span {
 }
 
 .cajac {
-  width: 600px;
+  width: 500px;
   padding-left: 1em;
   text-align: center;
   align-items: center;
+  align-content: center;
   margin-top: 105px;
 }
 
@@ -268,13 +269,13 @@ h2 span {
 
 .cajas {
   margin-top: 105px;
-  padding: 50px;
+  padding: 20px;
   justify-content: space-evenly;
   margin-left: 60px;
 }
 
 .caja1 {
-  margin: 50px;
+  margin: 40px;
   display: inline-block;
   color: white;
   text-align: center;
@@ -282,7 +283,7 @@ h2 span {
 
 .contact-icon {
   color: inherit;
-  font-size: 50px;
+  font-size: 60px;
   text-decoration: none;
 }
 
@@ -293,7 +294,10 @@ h2 span {
 
 .contain {
   display: grid;
-  grid-template-columns: repeat(minmax(200px, 2fr));
-  margin: 0 auto;
-  margin-left: 45px;
+  grid-template-columns: (3fr 2fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 200px;
+  font-size: 0.75rem;
 }
