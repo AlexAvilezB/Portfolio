@@ -16,7 +16,7 @@
             <a href="#">Inicio</a>
             <a href="#Habilidades">Habilidades</a>
             <a href="">Proyectos</a>
-            <a href="">Contactame</a>
+            <a href="#contacto">Contactame</a>
           </nav>
         </header>
       </div>
@@ -51,7 +51,7 @@
     </section>
 
     <section class="habilidades" id="Habilidades">
-      <h2 class="titulo2">Mis habilidades</h2>
+      <h2 class="titulo2">{ Mis habilidades }</h2>
       <div class="container">
         <div class="skillcards">
           <div class="skill">
@@ -96,5 +96,48 @@
         </div>
       </div>
     </section>
+    <section class="contacto" id="contacto">
+      <h2> 
+        { Contacta Conmigo } 
+      </h2> 
+      
+      <div class="contain">
+        <div class="cajac">
+          <form action="enviar.php" method="post">
+            <h3 class="headform">Enviame un mensaje</h3> 
+            <input type="text" placeholder="Nombre"></br>
+            <input type="email" placeholder="Correo Electronico"></br>
+            <textarea placeholder="Escribe aqui tu mensaje."></textarea></br>
+
+            <input type="submit" value="Enviar" class="btn-sbmt"></br>
+          </form>
+        </div>  
+
+        <div class="cajas">
+          <span class="caja1">
+            <a class="fab fa-twitter contact-icon" href="https://twitter.com/lord_ishigami"></a>
+            <h3>Twitter</h3>
+          </span>
+
+          <span class="caja1">
+            <a class="fab fa-linkedin contact-icon" href="https://www.linkedin.com/in/alejandroavilezb/"></a>
+            <h3>LinkedIn</h3>
+          </span>
+
+          <span class="caja1">
+            <a class="fab fa-github contact-icon" href="https://github.com/AlexAvilezB"></a>
+            <h3>GitHub</h3>
+          </span>
+
+        </div>
+      </div>
+      
+    </section>
+    <script src="https://kit.fontawesome.com/579d02f1fe.js" crossorigin="anonymous"></script>
   </body>
+
+  <footer class="right">
+    <h5>Copyright © 2021. Alejandro Avilez </h5>
+    <h5>All Rights Reserved</h5>
+  </footer>
 </html>

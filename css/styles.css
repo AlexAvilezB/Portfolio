@@ -71,7 +71,7 @@ body {
 
 .presentacion {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
   width: 90vw;
   height: 60vh;
@@ -151,9 +151,9 @@ h2 span {
   justify-content: center;
   align-items: center;
   text-align: center;
-  grid-column-gap: 200px;
-  grid-row-gap: 8rem;
-  padding: 3rem 200px;
+  grid-column-gap: 100px;
+  grid-row-gap: 6rem;
+  padding: 2rem 200px;
   font-size: 0.75rem;
 }
 
@@ -199,4 +199,95 @@ h2 span {
   margin-top: 35px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+.contacto {
+  padding: 3em;
+  margin: 0 auto;
+}
+
+.cajac {
+  width: 600px;
+  border: 1px solid rgb(69, 179, 252);
+  padding-top: 2em;
+  text-align: center;
+  align-items: center;
+  margin-top: 125px;
+}
+
+.cajac input {
+  padding: 10px 20px;
+  width: 300px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(69, 179, 252);
+  color: white;
+}
+
+.cajac textarea {
+  height: 150px;
+  width: 300px;
+  background: none;
+  color: white;
+  border: 1px solid rgb(69, 179, 252);
+  padding: 1.5em;
+  margin-bottom: 1em;
+}
+
+.cajac .btn-sbmt {
+  margin: 1em;
+  border: 1px solid rgb(69, 179, 252);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.cajac .btn-sbmt:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: ease-in 0.3s;
+  box-shadow: 1px 3px 11px 1px rgba(0, 114, 196, 0.69);
+}
+
+.headform {
+  padding-bottom: 10px;
+}
+
+.right {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.contain {
+  display: inline-flex;
+}
+
+.cajas {
+  margin-top: 105px;
+  padding: 50px;
+  justify-content: space-evenly;
+  margin-left: 105px;
+}
+
+.caja1 {
+  margin: 105px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+
+.contact-icon {
+  color: inherit;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.contact-icon:hover {
+  color: rgb(69, 179, 252);
+  transition: ease-in 0.2s;
 }
