@@ -103,11 +103,13 @@
       
       <div class="contain">
         <div class="cajac">
-          <form action="enviar.php" method="post">
+          <form action="https://formsubmit.co/aleantonio656@gmail.com" method="post">
             <h3 class="headform">Enviame un mensaje</h3> 
-            <input type="text" name="name" placeholder="Nombre"></br>
-            <input type="email" name="email" placeholder="Correo Electronico"></br>
-            <textarea name="message" placeholder="Escribe aqui tu mensaje."></textarea></br>
+            <input type="text" name="name" placeholder="Nombre *" required></br>
+            <input type="hidden" name="_next" value="https://alexavilezb.github.io/Portfolio/#contacto">
+            <input type="hidden" name="_subject" value="Mensaje desde tu portafolio de proyectos!">
+            <input type="email" name="email" placeholder="Correo Electronico *" required></br>
+            <textarea name="message" placeholder="Escribe aqui tu mensaje. *" required></textarea></br>
 
             <input type="submit" value="Enviar" class="btn-sbmt"></br>
           </form>
