@@ -306,3 +306,77 @@ h2 span {
   text-align: center;
   padding: 1rem 100px;
 }
+
+.cerrar {
+  margin: 1em;
+  border: 1px solid rgb(69, 179, 252);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.cerrar:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: ease-in 0.3s;
+  box-shadow: 1px 3px 11px 1px rgba(0, 114, 196, 0.69);
+}
+
+.modalc {
+  position: fixed;
+  --opacity: 0;
+  --pointer: none;
+
+  opacity: var(--opacity);
+  pointer-events: var(--pointer);
+  transition: opacity 0.5s;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 33vh;
+  width: 100vw;
+  margin-top: 60px;
+}
+
+.estilom {
+  background-color: white;
+  width: 600px;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 114, 196, 0.2);
+  text-align: center;
+}
+
+.estilom h1 {
+  margin: 10px;
+}
+
+.estilom p {
+  opacity: 0.6;
+}
+
+.modalc:target {
+  --opacity: 0;
+  --pointer: unset;
+}
+
+.modalc:target .estilom {
+  animation: show 0.5s;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-150vh);
+  }
+}
