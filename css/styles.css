@@ -2,64 +2,34 @@
 
 @media screen and (max-width: 300px) {
   .fondo {
-    width: 190vw;
+    width: 100vw;
     padding: 10px;
     align-content: center;
   }
 
   body {
-    width: 180vw;
+    width: 100vw;
   }
 
   .presentext {
     margin-left: -125px;
-    width: 180vw;
+    width: 100vw;
   }
 
   .habilidades {
-    width: 190vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .fondo {
-    width: 190vw;
-    padding: 10px;
-    align-content: center;
-  }
-
-  body {
-    width: 180vw;
-  }
-
-  .presentext {
-    margin-left: -125px;
-    width: 170vw;
-  }
-
-  .habilidades {
-    width: 190vw;
+    width: 110vw;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .fondo {
-    width: 190vw;
-    padding: 10px;
-    align-content: center;
+  .contain .cajac {
+    width: 350px;
   }
+}
 
-  body {
-    width: 180vw;
-  }
-
-  .presentext {
-    margin-left: -125px;
-    width: 170vw;
-  }
-
-  .habilidades {
-    width: 190vw;
+@media screen and (min-width: 1000px) {
+  .contain {
+    grid-template-columns: 3fr 2fr;
   }
 }
 
@@ -96,7 +66,6 @@ body {
   margin: 10px;
   font-size: large;
   display: inline-flex;
-  justify-content: center;
   margin: 0;
 }
 
@@ -104,21 +73,20 @@ body {
   background-image: url("../assets/fakurian-design-iFu2HILEng8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
+  text-align: right;
 }
 .menu a:hover {
   background-color: rgb(46, 46, 46);
   color: white;
-  transition: ease-in 0.4s;
+  transition: ease-in 0.3s;
 }
 
 .presentacion {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
   width: 90vw;
   height: 60vh;
-  background-color: hsl(0, 0%, 10%);
 }
 
 .presentacion .picture {
@@ -142,6 +110,11 @@ h2 span {
 }
 
 .presentext {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 200px;
   text-align: justify;
   text-decoration: none;
   margin-top: 35px;
@@ -173,7 +146,12 @@ h2 span {
 .habilidades {
   margin-top: 300px;
   padding: 15px;
-  background-image: url("../assets/fondocode.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../assets/peakpx-min.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,8 +164,8 @@ h2 span {
   align-items: center;
   text-align: center;
   grid-column-gap: 100px;
-  grid-row-gap: 1rem;
-  padding: 3rem 200px;
+  grid-row-gap: 6rem;
+  padding: 2rem 200px;
   font-size: 0.75rem;
 }
 
@@ -222,8 +200,8 @@ h2 span {
 }
 
 .skill-icon {
-  height: 130px;
-  width: 130px;
+  height: 150px;
+  width: 150px;
   padding: 30px;
 }
 
@@ -235,42 +213,170 @@ h2 span {
   margin-bottom: 30px;
 }
 
-.capacitaciones {
-  margin-top: 50px;
-  margin-left: 15px;
-  padding: 20px;
+.contacto {
+  padding: 1em;
+  margin: 0 auto;
 }
 
-.capacitacion {
+.cajac {
+  width: 500px;
+  padding-left: 1em;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 105px;
+}
+
+.cajac input {
+  padding: 10px 20px;
+  width: 300px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(69, 179, 252);
+  color: white;
+}
+
+.cajac textarea {
+  height: 150px;
+  width: 300px;
+  background: none;
+  color: white;
+  border: 1px solid rgb(69, 179, 252);
+  padding: 1.5em;
+  margin-bottom: 1em;
+}
+
+.cajac .btn-sbmt {
+  margin: 1em;
+  border: 1px solid rgb(69, 179, 252);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.cajac .btn-sbmt:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: ease-in 0.3s;
+  box-shadow: 1px 3px 11px 1px rgba(0, 114, 196, 0.69);
+}
+
+.headform {
+  padding-bottom: 10px;
+}
+
+.right {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.cajas {
+  margin-top: 105px;
+  padding: 20px;
+  justify-content: space-evenly;
+  margin-left: 60px;
+}
+
+.caja1 {
+  margin: 40px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+}
+
+.contact-icon {
+  color: inherit;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.contact-icon:hover {
+  color: rgb(69, 179, 252);
+  transition: ease-in 0.2s;
+}
+
+.contain {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: (3fr 2fr);
   justify-content: center;
   align-items: center;
   text-align: center;
-  grid-gap: 1rem;
-  padding: 1rem 10px;
-  font-size: 1rem;
+  padding: 1rem 100px;
 }
 
-.cap-icon {
-  height: 110px;
-  width: 140px;
-  padding: 20px;
+.cerrar {
+  margin: 1em;
+  border: 1px solid rgb(69, 179, 252);
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
-.container1 {
-  display: grid;
-  grid-template-columns: 25% 75%;
-  justify-content: left;
+.cerrar:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: ease-in 0.3s;
+  box-shadow: 1px 3px 11px 1px rgba(0, 114, 196, 0.69);
+}
+
+.modalc {
+  position: fixed;
+  --opacity: 0;
+  --pointer: none;
+
+  opacity: var(--opacity);
+  pointer-events: var(--pointer);
+  transition: opacity 0.5s;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
   align-items: center;
   text-align: center;
-  grid-gap: 1rem;
-  padding: 1rem 10px;
-  font-size: 0.75rem;
+  justify-content: center;
+  height: 33vh;
+  width: 100vw;
+  margin-top: 60px;
 }
 
-.caja {
-  text-align: justify;
-  font-size: 0.7rem;
-  padding: 40px;
+.estilom {
+  background-color: white;
+  width: 600px;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 114, 196, 0.2);
+  text-align: center;
+}
+
+.estilom h1 {
+  margin: 10px;
+}
+
+.estilom p {
+  opacity: 0.6;
+}
+
+.modalc:target {
+  --opacity: 0;
+  --pointer: unset;
+}
+
+.modalc:target .estilom {
+  animation: show 0.5s;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-150vh);
+  }
 }

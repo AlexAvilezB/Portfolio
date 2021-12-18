@@ -15,41 +15,55 @@
           <nav class="menu">
             <a href="#">Inicio</a>
             <a href="#Habilidades">Habilidades</a>
-            <a href="#capacitaciones">Capacitaciones</a>
-            <a href="">Proyectos</a>
+            <a href="#modalc" id="open">Proyectos</a>
+            <a href="#contacto">Contactame</a>
           </nav>
+          <div class="modalc" id="modalc" >
+            <div class="modal">
+              <div class="estilom">
+                <h1>Alerta</h1>
+                <p>
+                    Hola, esta seccion aun esta en desarrollo, pero esta proxima a ser
+                    utilizada :D
+                </p>
+                <button class="cerrar" id="close">Cerrar</button>
+              </div>
+            </div>
+          </div>
         </header>
       </div>
-
+      
       <main>
-        <section class="presentacion">
-          <img src="assets/Perfil.jpg" class="picture" />
-          <h2>Hola, soy <span>Alejandro Avilez</span></h2>
+        <div class="cajap">
+          <section class="presentacion">
+            <img src="assets/Perfil.jpg" class="picture" />
+            <h2>Hola, soy <span>Alejandro Avilez</span></h2>
 
-          <div class="presentext">
-            <h4>
-              Tengo la edad de 19 años, actualmente soy un estudiante de
-              ingeniería en sistemas de información con el objetivo de
-              satisfacer las necesidades y problemáticas con integridad, poseo
-              conocimientos sobre el funcionamiento de los servicios
-              relacionados a la nube de Amazon ademas de empezar a desarrollarme
-              en el area del desarrollo Back-End. Conozco y he trabajado poco a
-              poco mis habilidades en la implementación y uso de lenguajes como
-              C, C++ y lo fundamental sobre programación en JAVA, creación y
-              configuración de bases de datos relacionales y uso de HTML5 y CSS.
-            </h4>
-          </div>
-          <div class="curriculum">
-            <a download href="assets/Diseño Curriculum.pdf">
-              <button class="cv">Descarga mi CV</button>
-            </a>
-          </div>
-        </section>
+            <div class="presentext">
+              <h4>
+                Soy un estudiante de ingeniería en sistemas de información con
+                el objetivo de satisfacer las necesidades y problemáticas con
+                integridad, poseo conocimientos sobre el funcionamiento de los
+                servicios relacionados a la nube de Amazon, he empezado a
+                desarrollarme en el area del desarrollo Back-End. Conozco y he
+                trabajado poco a poco mis habilidades en la implementación y uso
+                de lenguajes como C, C++ y lo fundamental sobre programación en
+                JAVA, creación y configuración de bases de datos relacionales y
+                uso de HTML5 y CSS.
+              </h4>
+            </div>
+            <div class="curriculum">
+              <a download href="assets/Diseño Curriculum.pdf">
+                <button class="cv">Descarga mi CV</button>
+              </a>
+            </div>
+          </section>
+        </div>
       </main>
     </section>
 
     <section class="habilidades" id="Habilidades">
-      <h2 class="titulo2">Mis habilidades</h2>
+      <h2 class="titulo2">{ Mis habilidades }</h2>
       <div class="container">
         <div class="skillcards">
           <div class="skill">
@@ -62,6 +76,13 @@
           <div class="skill">
             <img src="assets/css3.png" class="skill-icon" />
             <h1 class="skill-title">CSS3</h1>
+          </div>
+        </div>
+
+        <div class="skillcards">
+          <div class="skill">
+            <img src="assets/Git_icon.png" class="skill-icon" />
+            <h1 class="skill-title">Git</h1>
           </div>
         </div>
 
@@ -87,59 +108,51 @@
         </div>
       </div>
     </section>
+    <section class="contacto" id="contacto">
+      <h2> 
+        { Contacta Conmigo } 
+      </h2> 
+      
+      <div class="contain">
+        <div class="cajac">
+          <form action="https://formsubmit.co/aleantonio656@gmail.com" method="post">
+            <h3 class="headform">Enviame un mensaje</h3> 
+            <input type="text" name="name" placeholder="Nombre *" required></br>
+            <input type="hidden" name="_next" value="https://alexavilezb.github.io/Portfolio/#contacto">
+            <input type="hidden" name="_subject" value="Mensaje desde tu portafolio de proyectos!">
+            <input type="email" name="email" placeholder="Correo Electronico *" required></br>
+            <textarea name="message" placeholder="Escribe aqui tu mensaje. *" required></textarea></br>
 
-    <section class="capacitaciones" id="capacitaciones">
-      <h2 class="titulo3">Mis capacitaciones</h2>
-      <div class="text">
-        <h1>
-          Estas son algunas de las capacitaciones que he realizado y actualmente
-          busco profundizarme aun mas en ellas.
-        </h1>
-      </div>
+            <input type="submit" value="Enviar" class="btn-sbmt"></br>
+          </form>
+        </div>  
 
-      <div class="container1">
-        <div class="skillcards">
-          <div class="cap">
-            <img
-              src="assets/Amazon-Web-Services-AWS-Logo.png"
-              class="cap-icon"
-            />
-            <h1 class="skill-title">AWS Cloud Practitioner</h1>
-          </div>
-        </div>
+        <div class="cajac">
+          <span class="caja1">
+            <a class="fab fa-twitter contact-icon" href="https://twitter.com/lord_ishigami"></a>
+            <h3>Twitter</h3>
+          </span>
 
-        <div class="caja">
-          <h1>
-            Habilidades y conocimientos necesarios para demostrar comprensión
-            general del funcionamiento de los servicios de AWS.
-          </h1>
-        </div>
+          <span class="caja1">
+            <a class="fab fa-linkedin contact-icon" href="https://www.linkedin.com/in/alejandroavilezb/"></a>
+            <h3>LinkedIn</h3>
+          </span>
 
-        <div class="skillcards">
-          <div class="cap">
-            <img src="assets/backend.png" class="cap-icon" />
-            <h1 class="skill-title">Desarrollador Back-End</h1>
-          </div>
-        </div>
+          <span class="caja1">
+            <a class="fab fa-github contact-icon" href="https://github.com/AlexAvilezB"></a>
+            <h3>GitHub</h3>
+          </span>
 
-        <div class="caja">
-          <h1>
-            Fundamentos del desarrollo Back-End utilizando PHP y bases de datos
-            SQL.
-          </h1>
-        </div>
-
-        <div class="skillcards">
-          <div class="cap">
-            <img src="assets/Java-logo.png" class="cap-icon" />
-            <h1 class="skill-title">Fundamentos de JAVA</h1>
-          </div>
-        </div>
-
-        <div class="caja">
-          <h1>Curso orientado a los principios de la programacion en JAVA.</h1>
         </div>
       </div>
+      
     </section>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/579d02f1fe.js" crossorigin="anonymous"></script>
   </body>
+
+  <footer class="right">
+    <h5>Copyright © 2021. Alejandro Avilez </h5>
+    <h5>All Rights Reserved</h5>
+  </footer>
 </html>
